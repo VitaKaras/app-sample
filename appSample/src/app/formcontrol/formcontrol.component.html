@@ -1,0 +1,36 @@
+<!--<form #formRef="ngForm" class="col-sm-6">-->
+  <!--<div >-->
+    <!--<div *ngFor="let word2 of words2; let i=index"  class="form-group" style="display: inline-block">-->
+      <!--<input type="text" [(ngModel)]="words2[i].value" name="name{{i}}" class="form-control"  #name="ngModel" required />-->
+      <!--&lt;!&ndash;<p [hidden]="words2[in].value">Field is required</p>-->
+      <!--{{formRef.form.name1}}&ndash;&gt;-->
+    <!--</div>-->
+    <!--<br />-->
+  <!--</div>-->
+  <!--<button [disabled]="!formRef.form.valid" (click)="add()">Add input</button>-->
+<!--</form>-->
+<!--<br />-->
+<!--<br />-->
+<!--{{words2 | json}}-->
+
+
+<!--<div class="lineDiv"></div>-->
+<!--<div class="lineDiv"></div>-->
+<!--<div class="lineDiv"></div>-->
+
+<!--<input class="lineDiv">-->
+<!--<input class="lineDiv">-->
+<!--<input class="lineDiv">-->
+
+<!--<form class="col-sm-6">-->
+  <!--<div class="form-group">-->
+    <!--<input type="text" class="form-control" />-->
+    <!--<input type="text" class="form-control" />-->
+    <!--<input type="text" class="form-control" />-->
+    <!--&lt;!&ndash;<p [hidden]="words2[in].value">Field is required</p>-->
+    <!--{{formRef.form.name1}}&ndash;&gt;-->
+  <!--</div>-->
+<!--</form>-->
+
+<input [(ngModel)]="price" (ngModelChange)="changeNumber($event)" >
+<label>{{newPrice}}</label>
